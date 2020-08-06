@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ecommerce Application Test" duration-ms="207156" started-at="2020-07-28T18:32:29 IST" finished-at="2020-07-28T18:35:56 IST">
+    <groups>
+    </groups>
+    <test name="Basic Testing" duration-ms="207156" started-at="2020-07-28T18:32:29 IST" finished-at="2020-07-28T18:35:56 IST">
+      <class name="com.ecommerce.qa.testcases.LoginPageTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@7d907bac]" name="setUp" is-config="true" duration-ms="24403" started-at="2020-07-28T18:32:29 IST" finished-at="2020-07-28T18:32:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExecution()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@7d907bac]" name="startExecution" duration-ms="2" started-at="2020-07-28T18:32:53 IST" finished-at="2020-07-28T18:32:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExecution -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@7d907bac]" name="tearDown" is-config="true" duration-ms="3672" started-at="2020-07-28T18:32:53 IST" finished-at="2020-07-28T18:32:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@7d907bac]" name="setUp" is-config="true" duration-ms="15180" started-at="2020-07-28T18:32:57 IST" finished-at="2020-07-28T18:33:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogoOfApplicationTest()[pri:1, instance:com.ecommerce.qa.testcases.LoginPageTestCases@7d907bac]" name="verifyLogoOfApplicationTest" duration-ms="198" started-at="2020-07-28T18:33:12 IST" finished-at="2020-07-28T18:33:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoOfApplicationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@7d907bac]" name="tearDown" is-config="true" duration-ms="3177" started-at="2020-07-28T18:33:12 IST" finished-at="2020-07-28T18:33:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@7d907bac]" name="setUp" is-config="true" duration-ms="13834" started-at="2020-07-28T18:33:16 IST" finished-at="2020-07-28T18:33:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.ecommerce.qa.testcases.LoginPageTestCases@7d907bac]" name="loginTest" duration-ms="5105" started-at="2020-07-28T18:33:29 IST" finished-at="2020-07-28T18:33:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@7d907bac]" name="tearDown" is-config="true" duration-ms="2897" started-at="2020-07-28T18:33:35 IST" finished-at="2020-07-28T18:33:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommerce.qa.testcases.LoginPageTestCases -->
+      <class name="com.ecommerce.qa.testcases.MyAccountPageTestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.qa.testcases.MyAccountPageTestCases@7791a895]" name="setUp" is-config="true" duration-ms="18963" started-at="2020-07-28T18:33:37 IST" finished-at="2020-07-28T18:33:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExecution1()[pri:0, instance:com.ecommerce.qa.testcases.MyAccountPageTestCases@7791a895]" name="startExecution1" duration-ms="0" started-at="2020-07-28T18:33:56 IST" finished-at="2020-07-28T18:33:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExecution1 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.qa.testcases.MyAccountPageTestCases@7791a895]" name="setUp" is-config="true" duration-ms="19777" started-at="2020-07-28T18:33:56 IST" finished-at="2020-07-28T18:34:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoggedInUserTest()[pri:1, instance:com.ecommerce.qa.testcases.MyAccountPageTestCases@7791a895]" name="verifyLoggedInUserTest" duration-ms="100" started-at="2020-07-28T18:34:16 IST" finished-at="2020-07-28T18:34:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.qa.testcases.MyAccountPageTestCases@7791a895]" name="setUp" is-config="true" duration-ms="22870" started-at="2020-07-28T18:34:18 IST" finished-at="2020-07-28T18:34:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreatewWishlistTest(java.lang.String)[pri:2, instance:com.ecommerce.qa.testcases.MyAccountPageTestCases@7791a895]" name="validateCreatewWishlistTest" duration-ms="4166" started-at="2020-07-28T18:34:40 IST" data-provider="getWishListData" finished-at="2020-07-28T18:34:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Favourites]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatewWishlistTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.qa.testcases.MyAccountPageTestCases@7791a895]" name="setUp" is-config="true" duration-ms="20065" started-at="2020-07-28T18:34:45 IST" finished-at="2020-07-28T18:35:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreatewWishlistTest(java.lang.String)[pri:2, instance:com.ecommerce.qa.testcases.MyAccountPageTestCases@7791a895]" name="validateCreatewWishlistTest" duration-ms="3777" started-at="2020-07-28T18:35:05 IST" data-provider="getWishListData" finished-at="2020-07-28T18:35:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ChildSpecial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatewWishlistTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.qa.testcases.MyAccountPageTestCases@7791a895]" name="setUp" is-config="true" duration-ms="20597" started-at="2020-07-28T18:35:09 IST" finished-at="2020-07-28T18:35:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreatewWishlistTest(java.lang.String)[pri:2, instance:com.ecommerce.qa.testcases.MyAccountPageTestCases@7791a895]" name="validateCreatewWishlistTest" duration-ms="4683" started-at="2020-07-28T18:35:29 IST" data-provider="getWishListData" finished-at="2020-07-28T18:35:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WomenSpecial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatewWishlistTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.qa.testcases.MyAccountPageTestCases@7791a895]" name="setUp" is-config="true" duration-ms="17986" started-at="2020-07-28T18:35:34 IST" finished-at="2020-07-28T18:35:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreatewWishlistTest(java.lang.String)[pri:2, instance:com.ecommerce.qa.testcases.MyAccountPageTestCases@7791a895]" name="validateCreatewWishlistTest" duration-ms="4315" started-at="2020-07-28T18:35:52 IST" data-provider="getWishListData" finished-at="2020-07-28T18:35:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MenSpecial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatewWishlistTest -->
+      </class> <!-- com.ecommerce.qa.testcases.MyAccountPageTestCases -->
+    </test> <!-- Basic Testing -->
+  </suite> <!-- Ecommerce Application Test -->
+</testng-results>

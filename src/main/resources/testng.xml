@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "Ecommerce Application Test">
+
+	
+	
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+	</listeners>
+	
+	<test name = "Ecommerce Website testing">
+		<!-- <packages>
+			<package name="com.ecommerce.qa.testcases.*" />	
+		</packages>
+		 -->
+		 
+		  <classes>
+      		<class name="com.ecommerce.qa.testcases.LoginPageTestCases"/>
+      		
+      		<!-- <class name="MyAccountPageTestCases"/> -->
+    	 </classes>
+		 
+		 
+	</test>
+	
+</suite>

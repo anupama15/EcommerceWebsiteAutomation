@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="208.575" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Anupama Work\Anupama_work\Automation_SelJava\EcommerseWebsitePractice\target\test-classes;D:\Anupama Work\Anupama_work\Automation_SelJava\EcommerseWebsitePractice\target\classes;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Anupama-PC\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Anupama-PC\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Anupama-PC\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Anupama-PC\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Anupama-PC\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Anupama-PC\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Anupama-PC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Anupama-PC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Anupama-PC\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Anupama-PC\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Anupama-PC\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Anupama-PC\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Anupama-PC\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Anupama-PC\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\Anupama-PC\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Anupama-PC\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Anupama-PC\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Anupama-PC\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Anupama-PC\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\Anupama-PC\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Anupama-PC\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Anupama-PC\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Anupama-PC\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Anupama-PC\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Anupama-PC\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Anupama-PC\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Anupama-PC\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Anupama-PC\AppData\Local\Temp\surefire336747697255647632\surefirebooter3187375718753279902.jar C:\Users\Anupama-PC\AppData\Local\Temp\surefire336747697255647632 2020-07-28T18-32-26_577-jvmRun1 surefire5570014542973080592tmp surefire_07799646284692769629tmp"/>
+    <property name="surefire.test.class.path" value="D:\Anupama Work\Anupama_work\Automation_SelJava\EcommerseWebsitePractice\target\test-classes;D:\Anupama Work\Anupama_work\Automation_SelJava\EcommerseWebsitePractice\target\classes;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Anupama-PC\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Anupama-PC\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Anupama-PC\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Anupama-PC\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Anupama-PC\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Anupama-PC\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Anupama-PC\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Anupama-PC\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Anupama-PC\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Anupama-PC\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Anupama-PC\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Anupama-PC\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Anupama-PC\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Anupama-PC\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Anupama-PC\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\Anupama-PC\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Anupama-PC\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Anupama-PC\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Anupama-PC\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Anupama-PC\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Anupama-PC\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\Anupama-PC\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Anupama-PC\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Anupama-PC\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Anupama-PC\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Anupama-PC\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Anupama-PC\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Anupama-PC\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Anupama-PC\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Anupama-PC"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="basedir" value="D:\Anupama Work\Anupama_work\Automation_SelJava\EcommerseWebsitePractice"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Anupama-PC\AppData\Local\Temp\surefire336747697255647632\surefirebooter3187375718753279902.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="user.name" value="Anupama-PC"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Anupama-PC\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ANUPAM~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="user.dir" value="D:\Anupama Work\Anupama_work\Automation_SelJava\EcommerseWebsitePractice"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="D:/Anupama Work/Anupama_work/Automation_SelJava/geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_201\bin;C:\opt\apache-maven-3.6.3\bin;C:\Windows\System32;C:\Program Files\Java\jdk-14.0.2\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="startExecution" classname="com.ecommerce.qa.testcases.LoginPageTestCases" time="0.003">
+    <system-out><![CDATA[Before navigating to: 'http://automationpractice.com/index.php'
+Navigated to:'http://automationpractice.com/index.php'
+Execution Started Login page
+]]></system-out>
+    <system-err><![CDATA[1595941351764	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANUPAM~1\\AppData\\Local\\Temp\\rust_mozprofileYeyT1S"
+1595941356688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1595941356688	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1595941356689	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1595941356689	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595941364151	Marionette	INFO	Listening on port 51694
+1595941364478	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 28, 2020 6:32:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLogoOfApplicationTest" classname="com.ecommerce.qa.testcases.LoginPageTestCases" time="0.171">
+    <system-out><![CDATA[Before navigating to: 'http://automationpractice.com/index.php'
+Navigated to:'http://automationpractice.com/index.php'
+Trying to find Element By : By.id: header_logo
+Found Element By : By.id: header_logo
+]]></system-out>
+    <system-err><![CDATA[1595941373954	Marionette	INFO	Stopped listening on port 51694
+[Parent 3624, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8040, Chrome_ChildThread] WARNING: pipe [Parent 3624, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6272, Chrome_ChildThread] WARNING: pipe error: 109: fil
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 13820, Chrome_ChildThread] WARN
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1595941378111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANUPAM~1\\AppData\\Local\\Temp\\rust_mozprofilesjdBP3"
+1595941379017	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1595941379017	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1595941379017	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1595941379017	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595941382972	Marionette	INFO	Listening on port 51779
+1595941383338	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 28, 2020 6:33:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.ecommerce.qa.testcases.LoginPageTestCases" time="5.149">
+    <system-out><![CDATA[Before navigating to: 'http://automationpractice.com/index.php'
+Navigated to:'http://automationpractice.com/index.php'
+Trying to find Element By : By.className: login
+Found Element By : By.className: login
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (d0fde31f-4f2c-4c08-85bb-a06841818131)] -> class name: login]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (d0fde31f-4f2c-4c08-85bb-a06841818131)] -> class name: login]
+Trying to find Element By : By.xpath: //input[@id='email']
+Found Element By : By.xpath: //input[@id='email']
+Trying to find Element By : By.id: passwd
+Found Element By : By.id: passwd
+Trying to find Element By : By.xpath: //button[@id='SubmitLogin']
+Found Element By : By.xpath: //button[@id='SubmitLogin']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (d0fde31f-4f2c-4c08-85bb-a06841818131)] -> xpath: //button[@id='SubmitLogin']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (d0fde31f-4f2c-4c08-85bb-a06841818131)] -> xpath: //button[@id='SubmitLogin']]
+]]></system-out>
+    <system-err><![CDATA[1595941392972	Marionette	INFO	Stopped listening on port 51779
+[Child 12012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9888, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9888, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13428, Chrome_ChildTh[GPU 5596
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1595941396705	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANUPAM~1\\AppData\\Local\\Temp\\rust_mozprofileZYxG11"
+1595941397654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1595941397654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1595941397655	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1595941397655	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595941401666	Marionette	INFO	Listening on port 51869
+1595941401929	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 28, 2020 6:33:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="startExecution1" classname="com.ecommerce.qa.testcases.MyAccountPageTestCases" time="0.003">
+    <system-out><![CDATA[Before navigating to: 'http://automationpractice.com/index.php'
+Navigated to:'http://automationpractice.com/index.php'
+Trying to find Element By : By.className: login
+Found Element By : By.className: login
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (ff6a3a25-2f74-4dc0-b630-fe7b47f09825)] -> class name: login]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (ff6a3a25-2f74-4dc0-b630-fe7b47f09825)] -> class name: login]
+Trying to find Element By : By.xpath: //input[@id='email']
+Found Element By : By.xpath: //input[@id='email']
+Trying to find Element By : By.id: passwd
+Found Element By : By.id: passwd
+Trying to find Element By : By.xpath: //button[@id='SubmitLogin']
+Found Element By : By.xpath: //button[@id='SubmitLogin']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (ff6a3a25-2f74-4dc0-b630-fe7b47f09825)] -> xpath: //button[@id='SubmitLogin']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (ff6a3a25-2f74-4dc0-b630-fe7b47f09825)] -> xpath: //button[@id='SubmitLogin']]
+Execution Started My AccountPage
+]]></system-out>
+    <system-err><![CDATA[1595941415084	Marionette	INFO	Stopped listening on port 51869
+[Parent 14496, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 14496, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6344, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6344, Chrome_ChildThr
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 16316, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1595941418527	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANUPAM~1\\AppData\\Local\\Temp\\rust_mozprofilea4FGSC"
+1595941419549	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1595941419549	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1595941419549	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1595941419550	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Child 3452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3452, Chrome_ChildThread] WARNING1595941423293	Marionette	INFO	Listening on port 51955
+1595941423751	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 28, 2020 6:33:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoggedInUserTest" classname="com.ecommerce.qa.testcases.MyAccountPageTestCases" time="0.01">
+    <system-out><![CDATA[Before navigating to: 'http://automationpractice.com/index.php'
+Navigated to:'http://automationpractice.com/index.php'
+Trying to find Element By : By.className: login
+Found Element By : By.className: login
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (fe09337e-546f-499f-b47b-9a85cc71cff0)] -> class name: login]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (fe09337e-546f-499f-b47b-9a85cc71cff0)] -> class name: login]
+Trying to find Element By : By.xpath: //input[@id='email']
+Found Element By : By.xpath: //input[@id='email']
+Trying to find Element By : By.id: passwd
+Found Element By : By.id: passwd
+Trying to find Element By : By.xpath: //button[@id='SubmitLogin']
+Found Element By : By.xpath: //button[@id='SubmitLogin']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (fe09337e-546f-499f-b47b-9a85cc71cff0)] -> xpath: //button[@id='SubmitLogin']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (fe09337e-546f-499f-b47b-9a85cc71cff0)] -> xpath: //button[@id='SubmitLogin']]
+Trying to find Element By : By.xpath: //a[@title='View my customer account']/parent::div[@class='header_user_info']
+Found Element By : By.xpath: //a[@title='View my customer account']/parent::div[@class='header_user_info']
+]]></system-out>
+    <system-err><![CDATA[1595941437484	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANUPAM~1\\AppData\\Local\\Temp\\rust_mozprofilebyghpX"
+1595941438430	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1595941438431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1595941438431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1595941438431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 10040, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6168, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1595941442964	Marionette	INFO	Listening on port 52045
+1595941443212	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 28, 2020 6:34:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateCreatewWishlistTest[Favourites](1)" classname="com.ecommerce.qa.testcases.MyAccountPageTestCases" time="4.087">
+    <system-out><![CDATA[File loaded successfully
+Got the sheet
+Number of rows in sheet :4
+Before navigating to: 'http://automationpractice.com/index.php'
+Navigated to:'http://automationpractice.com/index.php'
+Trying to find Element By : By.className: login
+Found Element By : By.className: login
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (9c83a6db-eda7-42f2-879d-13e4d9cb44ed)] -> class name: login]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (9c83a6db-eda7-42f2-879d-13e4d9cb44ed)] -> class name: login]
+Trying to find Element By : By.xpath: //input[@id='email']
+Found Element By : By.xpath: //input[@id='email']
+Trying to find Element By : By.id: passwd
+Found Element By : By.id: passwd
+Trying to find Element By : By.xpath: //button[@id='SubmitLogin']
+Found Element By : By.xpath: //button[@id='SubmitLogin']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (9c83a6db-eda7-42f2-879d-13e4d9cb44ed)] -> xpath: //button[@id='SubmitLogin']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (9c83a6db-eda7-42f2-879d-13e4d9cb44ed)] -> xpath: //button[@id='SubmitLogin']]
+Trying to find Element By : By.xpath: //*[text()='My wishlists']
+Found Element By : By.xpath: //*[text()='My wishlists']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (9c83a6db-eda7-42f2-879d-13e4d9cb44ed)] -> xpath: //*[text()='My wishlists']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (9c83a6db-eda7-42f2-879d-13e4d9cb44ed)] -> xpath: //*[text()='My wishlists']]
+Trying to find Element By : By.xpath: //*[@type='text' and @id='name']
+Found Element By : By.xpath: //*[@type='text' and @id='name']
+Trying to find Element By : By.id: submitWishlist
+Found Element By : By.id: submitWishlist
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (9c83a6db-eda7-42f2-879d-13e4d9cb44ed)] -> id: submitWishlist]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (9c83a6db-eda7-42f2-879d-13e4d9cb44ed)] -> id: submitWishlist]
+]]></system-out>
+    <system-err><![CDATA[1595941458686	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANUPAM~1\\AppData\\Local\\Temp\\rust_mozprofileMpL4PX"
+1595941459567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1595941459567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1595941459567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1595941459567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 15344, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1595941464209	Marionette	INFO	Listening on port 52145
+1595941464402	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 28, 2020 6:34:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateCreatewWishlistTest[ChildSpecial](2)" classname="com.ecommerce.qa.testcases.MyAccountPageTestCases" time="3.737">
+    <system-out><![CDATA[Before navigating to: 'http://automationpractice.com/index.php'
+Navigated to:'http://automationpractice.com/index.php'
+Trying to find Element By : By.className: login
+Found Element By : By.className: login
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (ded64495-ca1f-47e7-af95-29846709e71d)] -> class name: login]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (ded64495-ca1f-47e7-af95-29846709e71d)] -> class name: login]
+Trying to find Element By : By.xpath: //input[@id='email']
+Found Element By : By.xpath: //input[@id='email']
+Trying to find Element By : By.id: passwd
+Found Element By : By.id: passwd
+Trying to find Element By : By.xpath: //button[@id='SubmitLogin']
+Found Element By : By.xpath: //button[@id='SubmitLogin']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (ded64495-ca1f-47e7-af95-29846709e71d)] -> xpath: //button[@id='SubmitLogin']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (ded64495-ca1f-47e7-af95-29846709e71d)] -> xpath: //button[@id='SubmitLogin']]
+Trying to find Element By : By.xpath: //*[text()='My wishlists']
+Found Element By : By.xpath: //*[text()='My wishlists']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (ded64495-ca1f-47e7-af95-29846709e71d)] -> xpath: //*[text()='My wishlists']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (ded64495-ca1f-47e7-af95-29846709e71d)] -> xpath: //*[text()='My wishlists']]
+Trying to find Element By : By.xpath: //*[@type='text' and @id='name']
+Found Element By : By.xpath: //*[@type='text' and @id='name']
+Trying to find Element By : By.id: submitWishlist
+Found Element By : By.id: submitWishlist
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (ded64495-ca1f-47e7-af95-29846709e71d)] -> id: submitWishlist]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (ded64495-ca1f-47e7-af95-29846709e71d)] -> id: submitWishlist]
+]]></system-out>
+    <system-err><![CDATA[1595941485714	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANUPAM~1\\AppData\\Local\\Temp\\rust_mozprofileu1Lk1f"
+1595941486792	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1595941486792	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1595941486793	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1595941486793	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595941490721	Marionette	INFO	Listening on port 52240
+1595941490953	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 28, 2020 6:34:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateCreatewWishlistTest[WomenSpecial](3)" classname="com.ecommerce.qa.testcases.MyAccountPageTestCases" time="4.624">
+    <system-out><![CDATA[Before navigating to: 'http://automationpractice.com/index.php'
+Navigated to:'http://automationpractice.com/index.php'
+Trying to find Element By : By.className: login
+Found Element By : By.className: login
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (a72f6c7b-a7f0-441e-9d65-5d7bb56e551a)] -> class name: login]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (a72f6c7b-a7f0-441e-9d65-5d7bb56e551a)] -> class name: login]
+Trying to find Element By : By.xpath: //input[@id='email']
+Found Element By : By.xpath: //input[@id='email']
+Trying to find Element By : By.id: passwd
+Found Element By : By.id: passwd
+Trying to find Element By : By.xpath: //button[@id='SubmitLogin']
+Found Element By : By.xpath: //button[@id='SubmitLogin']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (a72f6c7b-a7f0-441e-9d65-5d7bb56e551a)] -> xpath: //button[@id='SubmitLogin']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (a72f6c7b-a7f0-441e-9d65-5d7bb56e551a)] -> xpath: //button[@id='SubmitLogin']]
+Trying to find Element By : By.xpath: //*[text()='My wishlists']
+Found Element By : By.xpath: //*[text()='My wishlists']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (a72f6c7b-a7f0-441e-9d65-5d7bb56e551a)] -> xpath: //*[text()='My wishlists']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (a72f6c7b-a7f0-441e-9d65-5d7bb56e551a)] -> xpath: //*[text()='My wishlists']]
+Trying to find Element By : By.xpath: //*[@type='text' and @id='name']
+Found Element By : By.xpath: //*[@type='text' and @id='name']
+Trying to find Element By : By.id: submitWishlist
+Found Element By : By.id: submitWishlist
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (a72f6c7b-a7f0-441e-9d65-5d7bb56e551a)] -> id: submitWishlist]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (a72f6c7b-a7f0-441e-9d65-5d7bb56e551a)] -> id: submitWishlist]
+]]></system-out>
+    <system-err><![CDATA[1595941509553	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANUPAM~1\\AppData\\Local\\Temp\\rust_mozprofilezw55fw"
+1595941510625	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1595941510626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1595941510626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1595941510626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 16172, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1595941515078	Marionette	INFO	Listening on port 52333
+1595941515276	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 28, 2020 6:35:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateCreatewWishlistTest[MenSpecial](4)" classname="com.ecommerce.qa.testcases.MyAccountPageTestCases" time="4.077">
+    <system-out><![CDATA[Before navigating to: 'http://automationpractice.com/index.php'
+Navigated to:'http://automationpractice.com/index.php'
+Trying to find Element By : By.className: login
+Found Element By : By.className: login
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (648860d5-99d1-4745-8dd5-335235e3b592)] -> class name: login]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (648860d5-99d1-4745-8dd5-335235e3b592)] -> class name: login]
+Trying to find Element By : By.xpath: //input[@id='email']
+Found Element By : By.xpath: //input[@id='email']
+Trying to find Element By : By.id: passwd
+Found Element By : By.id: passwd
+Trying to find Element By : By.xpath: //button[@id='SubmitLogin']
+Found Element By : By.xpath: //button[@id='SubmitLogin']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (648860d5-99d1-4745-8dd5-335235e3b592)] -> xpath: //button[@id='SubmitLogin']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (648860d5-99d1-4745-8dd5-335235e3b592)] -> xpath: //button[@id='SubmitLogin']]
+Trying to find Element By : By.xpath: //*[text()='My wishlists']
+Found Element By : By.xpath: //*[text()='My wishlists']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (648860d5-99d1-4745-8dd5-335235e3b592)] -> xpath: //*[text()='My wishlists']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (648860d5-99d1-4745-8dd5-335235e3b592)] -> xpath: //*[text()='My wishlists']]
+Trying to find Element By : By.xpath: //*[@type='text' and @id='name']
+Found Element By : By.xpath: //*[@type='text' and @id='name']
+Trying to find Element By : By.id: submitWishlist
+Found Element By : By.id: submitWishlist
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (648860d5-99d1-4745-8dd5-335235e3b592)] -> id: submitWishlist]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (648860d5-99d1-4745-8dd5-335235e3b592)] -> id: submitWishlist]
+]]></system-out>
+    <system-err><![CDATA[1595941534825	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ANUPAM~1\\AppData\\Local\\Temp\\rust_mozprofileT6cYJD"
+1595941535778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1595941535778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1595941535778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1595941535778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595941539794	Marionette	INFO	Listening on port 52432
+1595941540062	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jul 28, 2020 6:35:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
