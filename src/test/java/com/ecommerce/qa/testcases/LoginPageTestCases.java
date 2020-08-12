@@ -41,11 +41,11 @@ public class LoginPageTestCases extends TestBase {
 		}
 	}
 	
-	@Test(priority=0)
+	@Test(priority=-1)
 	public void startExecution() {
 		System.out.println("Execution Started Login page");
 	}
-	@Test(priority=1)
+	@Test(priority=0)
 	public void verifyLogoOfApplicationTest() {
 		Boolean flag1=loginPage.verifyLogo();
 		
