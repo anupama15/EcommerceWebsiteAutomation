@@ -41,19 +41,21 @@ public class LoginPageTestCases extends TestBase {
 		}
 	}
 	
-	@Test(priority=-1)
-	public void startExecution() {
-		System.out.println("Execution Started Login page");
-	}
 	@Test(priority=0)
 	public void verifyLogoOfApplicationTest() {
+		System.out.println("Verify Logo method");
 		Boolean flag1=loginPage.verifyLogo();
 		
 		Assert.assertTrue(flag1);
 	
 	}
 	
-	@Test(priority=2)
+	@Test(priority=0)
+	public void startExecution() {
+		System.out.println("Execution Started Login page");
+	}
+	
+	@Test(priority=1)
 	public void loginTest() throws FileNotFoundException, IOException {
 		myAcc=loginPage.signIn(prop.getProperty("email"), prop.getProperty("password"));
 		

@@ -42,11 +42,11 @@ public class TestUtil extends TestBase {
 		
 		FileInputStream file=null;
 		try {
-			file=new FileInputStream(TESTDATA_SHEETPATH);
-			System.out.println("File loaded successfully");
-		}catch(FileNotFoundException e) {
-			e.printStackTrace();
-		}
+				file=new FileInputStream(TESTDATA_SHEETPATH);
+				System.out.println("File loaded successfully");
+			}catch(FileNotFoundException e) {
+				e.printStackTrace();
+			}
 		
 		try {
 			book=WorkbookFactory.create(file);

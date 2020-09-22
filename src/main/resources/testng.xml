@@ -3,8 +3,7 @@
 
 <suite name = "Ecommerce Application Test">
 
-	
-	
+		
 	<listeners>
 		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
 	</listeners>
