@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Ecommerce Application Test" duration-ms="69876" started-at="2020-07-29T17:57:41 IST" finished-at="2020-07-29T17:58:51 IST">
+  <suite name="Default suite" duration-ms="75220" started-at="2020-09-12T01:55:26 IST" finished-at="2020-09-12T01:56:41 IST">
     <groups>
     </groups>
-    <test name="Ecommerce Website testing" duration-ms="69876" started-at="2020-07-29T17:57:41 IST" finished-at="2020-07-29T17:58:51 IST">
+    <test name="Default test" duration-ms="75220" started-at="2020-09-12T01:55:26 IST" finished-at="2020-09-12T01:56:41 IST">
       <class name="com.ecommerce.qa.testcases.LoginPageTestCases">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@3712b94]" name="setUp" is-config="true" duration-ms="15351" started-at="2020-07-29T17:57:41 IST" finished-at="2020-07-29T17:57:57 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@4d41cee]" name="setUp" is-config="true" duration-ms="25010" started-at="2020-09-12T01:55:26 IST" finished-at="2020-09-12T01:55:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExecution()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@3712b94]" name="startExecution" duration-ms="32" started-at="2020-07-29T17:57:57 IST" finished-at="2020-07-29T17:57:57 IST">
+        <test-method status="PASS" signature="startExecution()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@4d41cee]" name="startExecution" duration-ms="24" started-at="2020-09-12T01:55:51 IST" finished-at="2020-09-12T01:55:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExecution -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@3712b94]" name="tearDown" is-config="true" duration-ms="3450" started-at="2020-07-29T17:57:57 IST" finished-at="2020-07-29T17:58:00 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@4d41cee]" name="tearDown" is-config="true" duration-ms="3635" started-at="2020-09-12T01:55:51 IST" finished-at="2020-09-12T01:55:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@3712b94]" name="setUp" is-config="true" duration-ms="14580" started-at="2020-07-29T17:58:00 IST" finished-at="2020-07-29T17:58:15 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@4d41cee]" name="setUp" is-config="true" duration-ms="13742" started-at="2020-09-12T01:55:55 IST" finished-at="2020-09-12T01:56:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLogoOfApplicationTest()[pri:1, instance:com.ecommerce.qa.testcases.LoginPageTestCases@3712b94]" name="verifyLogoOfApplicationTest" duration-ms="207" started-at="2020-07-29T17:58:15 IST" finished-at="2020-07-29T17:58:15 IST">
+        <test-method status="PASS" signature="verifyLogoOfApplicationTest()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@4d41cee]" name="verifyLogoOfApplicationTest" duration-ms="312" started-at="2020-09-12T01:56:08 IST" finished-at="2020-09-12T01:56:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogoOfApplicationTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@3712b94]" name="tearDown" is-config="true" duration-ms="3636" started-at="2020-07-29T17:58:15 IST" finished-at="2020-07-29T17:58:19 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@4d41cee]" name="tearDown" is-config="true" duration-ms="3262" started-at="2020-09-12T01:56:09 IST" finished-at="2020-09-12T01:56:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@3712b94]" name="setUp" is-config="true" duration-ms="14699" started-at="2020-07-29T17:58:19 IST" finished-at="2020-07-29T17:58:33 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@4d41cee]" name="setUp" is-config="true" duration-ms="13348" started-at="2020-09-12T01:56:12 IST" finished-at="2020-09-12T01:56:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="loginTest()[pri:2, instance:com.ecommerce.qa.testcases.LoginPageTestCases@3712b94]" name="loginTest" duration-ms="14217" started-at="2020-07-29T17:58:33 IST" finished-at="2020-07-29T17:58:48 IST">
+        <test-method status="FAIL" signature="loginTest()[pri:1, instance:com.ecommerce.qa.testcases.LoginPageTestCases@4d41cee]" name="loginTest" duration-ms="12829" started-at="2020-09-12T01:56:25 IST" finished-at="2020-09-12T01:56:38 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //input[@id='emailll']
@@ -43,8 +43,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PSG-012-ANUPAMA', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 7800, moz:profile: C:\Users\Anupama-PC\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9837e74a-32d2-4ee7-ad05-9d65be5a9550
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14888, moz:profile: C:\Users\Anupama-PC\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 91421f75-e8cd-498f-ba03-b264929cdeb5
 *** Element info: {Using=xpath, value=//input[@id='emailll']}]]>
             </message>
             <full-stacktrace>
@@ -53,8 +53,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PSG-012-ANUPAMA', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 7800, moz:profile: C:\Users\Anupama-PC\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9837e74a-32d2-4ee7-ad05-9d65be5a9550
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14888, moz:profile: C:\Users\Anupama-PC\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 91421f75-e8cd-498f-ba03-b264929cdeb5
 *** Element info: {Using=xpath, value=//input[@id='emailll']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -81,7 +81,7 @@ at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(Def
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
 at com.ecommerce.qa.pages.LoginPage.signIn(LoginPage.java:45)
-at com.ecommerce.qa.testcases.LoginPageTestCases.loginTest(LoginPageTestCases.java:50)
+at com.ecommerce.qa.testcases.LoginPageTestCases.loginTest(LoginPageTestCases.java:60)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -116,11 +116,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@3712b94]" name="tearDown" is-config="true" duration-ms="3616" started-at="2020-07-29T17:58:48 IST" finished-at="2020-07-29T17:58:51 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecommerce.qa.testcases.LoginPageTestCases@4d41cee]" name="tearDown" is-config="true" duration-ms="2961" started-at="2020-09-12T01:56:38 IST" finished-at="2020-09-12T01:56:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ecommerce.qa.testcases.LoginPageTestCases -->
-    </test> <!-- Ecommerce Website testing -->
-  </suite> <!-- Ecommerce Application Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
